@@ -1,0 +1,47 @@
+
+jutsus = {
+
+    "Rasengan":700,
+    "Chidori":600,
+    "Amaterasu":800,
+    "Kage Bunshin no Jutsu":300,
+    "Katon: Hosenka no jutsu":400,
+
+}
+
+akuma_no_mi = {
+
+    "Gomu Gomu no mi":500,
+    "Mera Mera no mi":400,
+    "Gura Gura no mi":100,
+    "Hie Hie no mi":800,
+    
+}
+
+quantidade_chakra = int(input("Qual a sua quantidade de chakra?(Digite de 0 a 1000)"))
+quantidade_haki = int(input("Quanto voce tem de haki?(0 a 1000)"))
+
+jutsus_disponiveis = []
+akuma_no_mi_disponiveis = []
+
+for jutsu, chakra_necessario in jutsus.items():
+    if quantidade_chakra >= chakra_necessario:
+        jutsus_disponiveis.append(jutsu)
+
+for akuma, haki_necessario in akuma_no_mi.items():
+    if quantidade_haki >= haki_necessario:
+        akuma_no_mi_disponiveis.append(akuma)
+
+print("\n Os Jutus que voce pode fazer com ", quantidade_chakra , " de chakra são: ")
+for jutsu in jutsus_disponiveis:
+    print(jutsu)
+
+if quantidade_chakra <= 0: 
+  print("Nenhum, você ta mais falido que o kakashi.")
+
+
+print("\nA Akuma no mi mais forte que você consegue com :", quantidade_haki , " de haki é a ")
+for akuma in akuma_no_mi_disponiveis:
+    print(akuma)
+if quantidade_chakra <= 0:
+  print("Nenhuma, tem que passar uns anos treinando com o Rayleigh.")
