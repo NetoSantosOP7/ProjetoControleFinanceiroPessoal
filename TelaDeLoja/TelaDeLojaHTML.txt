@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Loja ElegantoSmells</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+        <H1>Bem Vindo à loja ElegantoSmells</H1>
+
+        <H2>Escolha seu perfume desejado e boa compra! :) </H2><br><br>
+
+
+    </header>
+  
+  <div class = "search-box">
+        <input type="text" class="search-text" placeholder="Pesquisar">
+        <a href="#" class="search-btn"></a>
+        <img src="iconelupa.png" alt="Lupa" height="18" width="18">
+
+    </div>
+
+<a href="#" class="cart-btn">
+    <img src="shopping-cart.png" alt="Carrinho" height="24" width="24">
+</a>
+
+          <div class="perfumesnac">
+
+            <h1>Perfumes Nacionais:</h1>
+
+        </div>
+  
+    <section class="product-section">
+
+        <div class="container">
+            <div class="product">
+                <img src="MalbecNacional.webp" alt="Produto 1">
+                <div class="product-name">Makbec Colônia</div>
+                <div class="product-price">R$189,90</div>
+                <button class="buy-button">Comprar</button>
+                <button class="cart-button">Adicionar ao Carrinho&#128722;</button>
+
+            </div>
+
+            <div class="product">
+                <img src="ZaadNacional.jpg" alt="Produto 2">
+                <div class="product-name">Zaad Mondo Eau</div>
+                <div class="product-price">R$299,90</div>
+                <button class="buy-button">Comprar</button>
+                <button class="cart-button">Adicionar ao Carrinho&#128722;</button>
+            </div>
+
+            <div class="product">
+                <img src="IMPRESSIONaudaz.jpg" alt="Produto 3">
+                <div class="product-name">Impression AUDAZ</div>
+                <div class="product-price">R$209.90</div>
+                <button class="buy-button">Comprar</button>
+                <button class="cart-button">Adicionar ao Carrinho&#128722;</button>
+            </div>
+
+            <div class="product">
+                <img src="malbecBLACK.webp" alt="Produto 3">
+                <div class="product-name">Malbec Black</div>
+                <div class="product-price">R$209.99</div>
+                <button class="buy-button">Comprar</button>
+                <button class="cart-button">Adicionar ao Carrinho&#128722;</button>
+            </div>
+
+            <div class="product">
+                <img src="EGEOdolce.jpg" alt="Produto 3">
+                <div class="product-name">Egeo Dolce</div>
+                <div class="product-price">R$129.90</div>
+                <button class="buy-button">Comprar</button>
+                <button class="cart-button">Adicionar ao Carrinho&#128722;</button>
+            </div>
+
+            <div class="product">
+                <img src="biografiaNATURA.jpg" alt="Produto 3">
+                <div class="product-name">Biografia-Natura</div>
+                <div class="product-price">R$135.99</div>
+                <button class="buy-button">Comprar</button>
+                <button class="cart-button">Adicionar ao Carrinho&#128722;</button>
+            </div>
+
+            <div class="product">
+                <img src="essencialNatura.jpg" alt="Produto 3">
+                <div class="product-name">Essencial Masculino</div>
+                <div class="product-price">R$126.99</div>
+                <button class="buy-button">Comprar</button>
+                <button class="cart-button">Adicionar ao Carrinho&#128722;</button>
+            </div>
+
+            <div class="product">
+                <img src="ZAADmondo.jpg" alt="Produto 3">
+                <div class="product-name">Zaad</div>
+                <div class="product-price">R$262.90</div>
+                <button class="buy-button">Comprar</button>
+                <button class="cart-button">Adicionar ao Carrinho&#128722;</button>
+            </div>
+
+            <div class="product">
+                <img src="KayakOceanoNatura.jpg" alt="Produto 3">
+                <div class="product-name">Kayak Oceano</div>
+                <div class="product-price">R$155.90</div>
+                <button class="buy-button">Comprar</button>
+                <button class="cart-button">Adicionar ao Carrinho&#128722;</button>
+
+            </div>
+    </section>
+
+    <div class="perfumesimport">
+
+        <H1>Perfumes Importados:</H1><br>
+
+
+    </div>
+
+    <section class="product-section2">
+
+
+        <div class="product">
+            <img src="sauvage.jpg" alt="Produto 3">
+            <div class="product-name">Sauvage</div>
+            <div class="product-price">R$1479.90</div>
+            <button class="buy-button">Comprar</button>
+            <button class="cart-button">Adicionar ao Carrinho&#128722;</button>
+
+        </div>
+
+        <div class="product">
+            <img src="pacorabbane.jpg" alt="Produto 3">
+            <div class="product-name">Pacco Rabanne MILLION</div>
+            <div class="product-price">R$455.90</div>
+            <button class="buy-button">Comprar</button>
+            <button class="cart-button">Adicionar ao Carrinho&#128722;</button>
+
+        </div>
+
+        <div class="product">
+            <img src="chanelbleu.webp" alt="Produto 3">
+            <div class="product-name">Chanel Bleu</div>
+            <div class="product-price">R$880.00</div>
+            <button class="buy-button">Comprar</button>
+            <button class="cart-button">Adicionar ao Carrinho&#128722;</button>
+
+        </div>
+
+        <div class="product">
+            <img src="bvlgari-maninblack.webp" alt="Produto 3">
+            <div class="product-name">Bvlgari MAN IN BLACK</div>
+            <div class="product-price">R$769.90</div>
+            <button class="buy-button">Comprar</button>
+            <button class="cart-button">Adicionar ao Carrinho&#128722;</button>
+
+        </div>
+
+        <div class="product">
+            <img src="Dolce$Gabanatheone.jpg" alt="Produto 3">
+            <div class="product-name">Dolce & Gabanna THE ONE</div>
+            <div class="product-price">$700.90</div>
+            <button class="buy-button">Comprar</button>
+            <button class="cart-button">Adicionar ao Carrinho&#128722;</button>
+
+        </div>
+
+        <div class="product">
+            <img src="MontBlancINDIVIDUEL.jpg" alt="Produto 3">
+            <div class="product-name">MontBlanc INDIVIDUEL</div>
+            <div class="product-price">R$247.99</div>
+            <button class="buy-button">Comprar</button>
+            <button class="cart-button">Adicionar ao Carrinho&#128722;</button>
+
+        </div>
+
+        <div class="product">
+            <img src="FERRARIblack.jpg" alt="Produto 3">
+            <div class="product-name">Ferrari Black</div>
+            <div class="product-price">R$288.90</div>
+            <button class="buy-button">Comprar</button>
+            <button class="cart-button">Adicionar ao Carrinho&#128722;</button>
+
+        </div>
+
+        <div class="product">
+            <img src="NightCaviar.jpg" alt="Produto 3">
+            <div class="product-name">Night Caviar</div>
+            <div class="product-price">R$588.99</div>
+            <button class="buy-button">Comprar</button>
+            <button class="cart-button">Adicionar ao Carrinho&#128722;</button>
+
+        </div>
+
+        <div class="product">
+            <img src="212VIPblack.jpg" alt="Produto 3">
+            <div class="product-name">212 Vip BLACK</div>
+            <div class="product-price">R$441.70</div>
+            <button class="buy-button">Comprar</button>
+            <button class="cart-button">Adicionar ao Carrinho&#128722;</button>
+
+        </div>
+
+        </div>
+
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,235 @@
+body,
+h1,
+h2,
+p,
+ul,
+li,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+
+.site-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #00aeff;
+}
+
+body {
+    background-image: url('fundo2.jpg');
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+
+    background-color: #00001d;
+  
+    font-family: Arial, sans-serif;
+    color: #00aeff;
+
+    text-align: center;
+}
+
+
+header {
+    background-image: url('fundo7.avif');
+
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    
+    background-color: #00001d;
+  
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+h1 {
+  
+    font-family: cursive;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+h2 {
+
+  font-family:cursive;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+  
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+  
+    max-height: 200px;
+  
+    height: auto;
+  
+}
+
+.product-name {
+    font-family: pacifico,cursive;
+    font-weight: 100;
+    margin: 10px 0;
+}
+
+.product-section {
+    color: aqua;
+    margin-top: 26px;
+
+}
+
+.perfumesnac {
+    margin-top: -14px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.perfumesimport {
+
+    font-weight: bold;
+
+    font-style: italic;
+  
+}
+
+.product-section2 {
+    color: aqua;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px
+}
+
+
+.product-name {
+    font-weight: 100;
+    margin: 10px 0;
+    color: green;
+    font-family: cursive;
+  
+}
+
+.product-price {
+     
+    font-family: arial;
+    color: #007bff;
+  
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+
+.buy-button {
+
+    background-color:#5776ff;
+  
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.buy-button:hover {
+    background-color: #004085;
+
+}
+
+.cart-button {
+    background-color: #fcff48;
+
+    color: #000000;
+
+    border: #afad36;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.cart-button:hover {
+    background-color: #9c9a00;
+
+}
+
+
+.search-box{
+    position: absolute;
+    top: 35%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    background-color: white; 
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-text{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .4s;
+}
+.search-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-box:hover > .search-text {
+    width: 240px;
+    padding: 0 6px;
+}
+
+
+.cart-btn {
+   position: absolute; 
+    top: 32%;
+    left: 90%;
+  
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 10px; 
+}
+
+.cart-btn img {
+    height: 18px;
+    width: 18px;
+}
